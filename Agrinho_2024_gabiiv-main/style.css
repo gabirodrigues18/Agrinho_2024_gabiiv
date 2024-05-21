@@ -1,0 +1,86 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+/* setup das variaveis*/
+:root {
+	--verde-fundo: #deece7;
+	--branco-principal: #ffffff;
+	--fonte-principal: "Lustria";
+	--verde-principal: #5fb13b;
+	--azul-principal: #0169b4;
+	--verde-secundario: #313a22;
+	--link: #0a4804;
+	--preto-titulo: #000;
+}
+/* configurações do corpo como fontes e cores*/
+body {
+	background-color: var(--verde-fundo);
+	color: var(--branco-principal);
+	font-family: var(--fonte-principal);
+	font-size: 20px;
+	font-weight: 400;
+}
+
+/*Configurações de efeitos do mouse */
+a:link {
+	text-decoration: none;
+	color: var(--link);
+}
+a.cabecalho__botao:link {
+	color: #fff;
+}
+a:visited {
+	color: var(--branco-principal);
+}
+a:hover {
+	text-decoration: underline;
+	color: var(--azul-principal);
+}
+a:active {
+	text-decoration: none;
+}
+
+/*estilo dos containers genericos*/
+.container {
+	margin-top: 50px;
+	display: flex;
+}
+/*estilos do cabeçalho*/
+.cabecalho {
+	background-image: url(img/4989099-aves-frangos-fazenda-negocio-com-grupo-de-galinhas-brancas-em-estoque-moderno-alojamento-fazenda-foto.jpg)
+}
+.img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center  center;
+}
+.logo__principal {
+	margin-top: 100px;
+	margin-left: 50px;
+}
+.texto__cabecalho {
+	text-align: center;
+	margin-top: 200px;
+	margin-bottom: 300px;
+	font-size: 80px;
+	font-weight: 400;
+}
+.cabecalho__botao {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 5%;
+	font-size: 25px;
+	font-weight: 400;
+}
+a.cabecalho__botao {
+	width: 180px;
+	height: 30px;
+	color: #fff;
+	padding: 20px;
+	border: 5px  solid  #fff;
+}
